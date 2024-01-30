@@ -1,0 +1,23 @@
+SELECT *
+FROM your_table_name
+WHERE NAME LIKE 'P%';
+
+
+SELECT NAME
+FROM your_table_name
+WHERE SALARY BETWEEN 3000 AND 5000;
+
+
+SELECT *
+FROM your_table_name
+ORDER BY SALARY DESC;
+
+
+SELECT NAME AS ENAME, DEPARTMENT AS Dept
+FROM your_table_name
+LIMIT 2;
+
+
+SELECT *
+FROM your_table_name
+WHERE NAME LIKE '_a%';
